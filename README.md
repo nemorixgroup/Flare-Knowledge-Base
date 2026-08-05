@@ -64,7 +64,7 @@ MIT License - see [LICENSE](./LICENSE) for details.
 ## Support This Project
 
 If this project is useful to you or your team, consider supporting its development. Every contribution helps cover infrastructure, documentation, and the time invested in building and maintaining this
-open source resource for the Avalanche blockchain community. Thank you!
+open source resource for the Flare blockchain community. Thank you!
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/nemorixgroupllc)
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/nemorixgroup)
