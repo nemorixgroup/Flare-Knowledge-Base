@@ -27,7 +27,7 @@ Six modules, each maps to a protocol boundary in the SDK itself:
  
 | # | Module | Maps to SDK | Status |
 |---|---|---|---|
-| 01 | Foundations, what Flare is, architecture, the four networks (Flare, Songbird, Coston2, Coston) | `network/` | Planned |
+| 01 | [Foundations, what Flare is, architecture, the four networks](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-01-foundations/README.md) (Flare, Songbird, Coston2, Coston) | `network/` | Done |
 | 02 | Consensus & Contract Registry, how Flare's consensus works, the FlareContractRegistry pattern | `registry/` | Planned |
 | 03 | FTSO, the Flare Time Series Oracle, feeds, feed IDs, block-latency updates | `ftso/` | Planned |
 | 04 | FDC, the Flare Data Connector, attestation types, the verifier and DA Layer flow | `fdc/` | Planned |
@@ -40,15 +40,27 @@ milestone sequence (M1 through M4), so each module lands once the
 corresponding SDK code is far enough along to validate the explanations
 against real, working behavior.
  
-## How each module is delivered
+## SDK Technical Decisions
  
-Following the same workflow used across Nemorix Group's other knowledge
-bases:
+This repository also documents the implementation decisions behind
+`flare_flutter_sdk`, the first native Flutter/Dart SDK for the Flare
+Network. Every implementation decision is grounded in the official
+sources documented in this repository, no third-party references, no
+unverified code.
  
-- Full module content is written in Spanish first, for internal study
-- An English `README.md` is generated immediately after, one per module
-- Commits go directly to `main`, no PR process for this repository (unlike
-  the SDK repo, which requires a PR into `develop`)
+Current status: Module 01 (Foundations) complete; SDK implementation
+not yet started (v0.0.1-dev on pub.dev is a reserved scaffold, with all
+public members throwing `UnimplementedError` by design).
+ 
+| Milestone | Status |
+|---|---|
+| M1 - Foundation & Wallet | 🔄 In progress |
+| M2 - Core Transactions | ⏳ Pending |
+| M3 - FTSO | ⏳ Pending |
+| M4 - FAssets + FDC | ⏳ Pending |
+| M5 - Release v1.0.0 | ⏳ Pending |
+ 
+See [docs-sdk/](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/docs-sdk/README.md) for the full documentation by milestone.
 
 ## Related
  
