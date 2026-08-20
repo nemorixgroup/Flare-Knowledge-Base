@@ -27,13 +27,13 @@ Six modules, each maps to a protocol boundary in the SDK itself:
  
 | # | Module | Maps to SDK | Status |
 |---|---|---|---|
-| 01 | [Foundations, what Flare is, architecture, the four networks](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-01-foundations/README.md) (Flare, Songbird, Coston2, Coston) | `network/` | Done |
-| 02 | Consensus & Contract Registry, how Flare's consensus works, the FlareContractRegistry pattern | `registry/` | Planned |
-| 03 | FTSO, the Flare Time Series Oracle, feeds, feed IDs, block-latency updates | `ftso/` | Planned |
-| 04 | FDC, the Flare Data Connector, attestation types, the verifier and DA Layer flow | `fdc/` | Planned |
-| 05 | FAssets, trustless bridging, the FXRP mint/redeem lifecycle, agents and collateral | `fassets/` | Planned |
-| 06 | Wallets & Account Abstraction, wallet connection patterns and Flare Smart Accounts (FSA) | `wallet/` | Planned |
-| 07 | Use cases, institutional adoption, development, roadmap | `use_case/` | Planned |
+| 01 | [Flare Foundations](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-01-foundations/README.md) (Flare, Songbird, Coston2, Coston) | `network/` | ✅ Done |
+| 02 | [Consensus & Contract Registry](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-02-consensus/README.md) | `registry/` | ✅ Done |
+| 03 | FTSO, the Flare Time Series Oracle, feeds, feed IDs, block-latency updates | `ftso/` | ⏳ Planned |
+| 04 | FDC, the Flare Data Connector, attestation types, the verifier and DA Layer flow | `fdc/` | ⏳ Planned |
+| 05 | FAssets, trustless bridging, the FXRP mint/redeem lifecycle, agents and collateral | `fassets/` | ⏳ Planned |
+| 06 | Wallets & Account Abstraction, wallet connection patterns and Flare Smart Accounts (FSA) | `wallet/` | ⏳ Planned |
+| 07 | Use cases, institutional adoption, development, roadmap | `use_case/` | ⏳ Planned |
  
 Modules are published in this order because it mirrors the SDK's own
 milestone sequence (M1 through M4), so each module lands once the
