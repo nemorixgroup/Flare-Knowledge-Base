@@ -93,4 +93,4 @@ asserting that all four resolved chain IDs are unique across the set.
 - [dev.flare.network/network/overview](https://dev.flare.network/network/overview)
 ## Related
  
-- Module 02, Consensus & Contract Registry (**Next**), background on why each network needs its own configuration
+- [Module 02, Consensus & Contract Registry](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-02-consensus/README.md), background on why each network needs its own configuration
