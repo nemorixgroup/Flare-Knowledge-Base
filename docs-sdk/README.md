@@ -42,8 +42,8 @@ docs-sdk/
 | Feature | Description | Status |
 |---|---|---|
 | [Network Configuration](https://github.com/nemorixgroup/Flare-Knowledge-Base/tree/main/docs-sdk/m1/network-configuration/README.md) | RPC endpoints, chain IDs, and currency symbols for all four Flare networks | ✅ Done |
-| Contract Registry Client | Resolving official contract addresses via FlareContractRegistry | 🔄 Next |
-| Local Wallet, Key Derivation | bip39 to bip32 to secp256k1, address derivation | ⏳ Pending |
+| [Contract Registry Client](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/docs-sdk/m1/contract_registry_client/README.md) | Resolving official contract addresses via FlareContractRegistry | ✅ Done |
+| Local Wallet, Key Derivation | bip39 to bip32 to secp256k1, address derivation | 🔄 Next |
 | Local Wallet, Transaction Signing | EIP-1559 transaction construction and signing | ⏳ Pending |
 | WalletConnect Integration | Reown WalletKit session setup (EIP-1193) | ⏳ Pending |
 | FlareClient Facade | Unified entry point wrapping registry and wallet | ⏳ Pending |
