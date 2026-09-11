@@ -29,7 +29,7 @@ Six modules, each maps to a protocol boundary in the SDK itself:
 |---|---|---|---|
 | 01 | [Flare Foundations](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-01-foundations/README.md) (Flare, Songbird, Coston2, Coston) | `network/` | ✅ Done |
 | 02 | [Consensus & Contract Registry](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-02-consensus/README.md) | `registry/` | ✅ Done |
-| 03 | FTSO, the Flare Time Series Oracle, feeds, feed IDs, block-latency updates | `ftso/` | ⏳ Planned |
+| 03 | [FTSO, the Flare Time Series Oracle, feeds, feed IDs, block-latency updates](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/module-03-ftso/README.md) | `ftso/` | ✅ Done |
 | 04 | FDC, the Flare Data Connector, attestation types, the verifier and DA Layer flow | `fdc/` | ⏳ Planned |
 | 05 | FAssets, trustless bridging, the FXRP mint/redeem lifecycle, agents and collateral | `fassets/` | ⏳ Planned |
 | 06 | Wallets & Account Abstraction, wallet connection patterns and Flare Smart Accounts (FSA) | `wallet/` | ⏳ Planned |
@@ -84,4 +84,5 @@ open source resource for the Flare blockchain community. Thank you!
 
 ---
 
-*Maintained by [Nemorix Group](https://github.com/nemorixgroup) - built with official sources only.*
+*Maintained by [Nemorix Group](https://github.com/nemorixgroup) - built with official sources only.*  
+*Last Updated*: **September, 2026**
