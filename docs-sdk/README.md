@@ -45,8 +45,8 @@ docs-sdk/
 | [Contract Registry Client](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/docs-sdk/m1/contract_registry_client/README.md) | Resolving official contract addresses via FlareContractRegistry | ✅ Done |
 | [Local Wallet, Key Derivation](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/docs-sdk/m1/local-wallet/README.md) | bip39 to bip32 to secp256k1, address derivation | ✅ Done |
 | [Local Wallet, P-Chain Address](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/docs-sdk/m1/p-chain-address/README.md) | Bech32 P-Chain address from the same key (SHA-256, RIPEMD-160), checked against the official sample | ✅ Done |
-| Local Wallet, Transaction Signing | EIP-1559 transaction construction and signing | 🔄 Next |
-| WalletConnect Integration | Reown WalletKit session setup (EIP-1193) | ⏳ Pending |
+| [Local Wallet, Transaction Signing](https://github.com/nemorixgroup/Flare-Knowledge-Base/blob/main/docs-sdk/m1/transaction-signing/README.md) | EIP-1559 transaction construction and signing | ✅ Done |
+| WalletConnect Integration | Reown WalletKit session setup (EIP-1193) | 🔄 Next |
 | FlareClient Facade | Unified entry point wrapping registry and wallet | ⏳ Pending |
 
 ## M2 - Core Transactions
